@@ -1,0 +1,308 @@
+* {
+    font-family: 'Metrophobic', sans-serif;
+}
+
+
+body {
+    cursor: url('/images/manicure-mouse.png'), auto;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    color: #F4156F; 
+    padding-top: 20px
+}
+
+.title img {
+    width: 13rem;
+}
+
+.navigation {
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav a {
+   display: inline; 
+   margin: 0 10px;
+   text-decoration: none;
+   color: #F4156F; 
+}
+
+nav a:hover {
+   color: black;
+   transition: 5ms ease-in-out;
+}
+
+
+.about {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 10% 0;
+}
+
+.work_example {
+    border-top-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    object-fit: contain;
+    width: 97%; 
+}
+
+.slideshow {
+   margin: 0 auto;
+   position: relative;
+   object-fit: contain;
+}
+
+
+
+
+.bookButton {
+    color: #F4156F; 
+    background-color: white;
+    border: 1.7px solid #F4156F; 
+    height: 2.5rem; 
+    line-height: 37px;
+    padding: 0 1rem; 
+    border-radius: 1rem; 
+    cursor: pointer; 
+    display: inline-block; 
+    text-decoration: none;
+}
+
+.bookButton:hover {
+    background-color: black;
+    color: white;
+    transition: 5ms ease-in-out;
+    border-color: black;
+}
+
+.social-icons {
+    padding: 3% 0;
+}
+
+#instagram {
+    color: #F4156F; 
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+#instagram:hover { 
+    color: black;
+    transition: 5ms ease-in-out;
+}
+
+.mail {
+    color: #F4156F; 
+    padding-left: 5px;
+}
+
+.mail:hover { 
+    color: black;
+    transition: 5ms ease-in-out;
+}
+
+.services {
+    position: relative;
+    text-align: center;
+    margin: 50px auto 20px;
+    border: 1.7px solid #9A4EA7;
+    border-radius: 2rem;
+    padding: 30px 0;
+    width: 90%;
+}
+
+ul {
+    padding-left: 0;
+}
+
+
+li {
+    list-style: none;
+    line-height: 28px;
+}
+
+.left-side-services {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.right-side-services {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.col {
+    padding: 0;
+}
+
+.serviceBook {
+    color: #9A4EA7;
+    background-color: white;
+    border: 1.7px solid #9A4EA7;
+    height: 2.5rem; 
+    line-height: 38px;
+    padding: 0 1rem; 
+    border-radius: 1rem; 
+    cursor: pointer; 
+    display: inline-block; 
+    text-decoration: none;
+}
+
+.serviceBook:hover {
+    background-color: black;
+    color: white;
+    transition: 5ms ease-in-out;
+    border-color: black;
+}
+
+.FAQ {
+    position: relative;
+    padding: 0 2rem;
+    margin: 50px auto 75px;
+    color: #284f82;
+}   
+
+.nail-tiers {
+    padding-left: 15%;
+}
+
+.col-sm-12 {
+    padding: 20px 0;
+}
+
+.card {
+    background-color: white;
+    border-color: black;
+    color: #284f82;
+}
+
+.card-header {
+    background-color: white;
+    border-color: black;
+   
+}
+
+#accordion {
+    background-color: white;
+}    
+
+
+.btn-link {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.CONTACT {
+    position: relative;
+    text-align: center;
+    padding: 10% 0 0;
+    border: 1px solid black;
+    border-radius: .5rem;
+    margin: 2px auto 0;
+}
+
+form input {
+    padding: .7rem 1rem;
+    background-color: #f8f9fa;
+    border-radius: .5rem;
+    border: 1px solid #284f82;
+    margin-bottom: 4px;
+}
+
+.CONTACT div {
+    padding: 1%
+}
+
+form textarea {
+    padding: .7rem 1rem;
+    width: 60%;
+    background-color: #f8f9fa;
+    border-radius: .5rem;
+    border: 1px solid #284f82;
+    font-size: small;
+}
+
+.mail-button {
+    background-color: white;
+    border: none;
+    padding-top: 10px
+}
+
+#contact-submit {
+    color: #284f82;
+}
+
+
+#contact-submit:hover {
+    color: black;
+}
+
+
+.footer {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+footer img {
+    width: 13rem;
+}
+
+.copyright {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 650px) {
+ 
+
+    .about {
+        width: 600px;
+    }
+
+    .services {
+       width: 600px;
+    }
+
+    .FAQ {
+        width: 600px
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .slideshow {
+        width: 800px;
+    }
+
+    .FAQ {
+        width: 800px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .left-side-services {
+        font-size: smaller;
+    }
+
+    .right-side-services {
+        font-size: smaller;
+    }
+
+    .card-body {
+        font-size: smaller;
+    }
+
+}
